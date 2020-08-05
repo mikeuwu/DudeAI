@@ -1,8 +1,8 @@
-import aiosqlite
+#import aiosqlite
 import discord
 
 from discord.ext import commands
-from json import load, dump
+from json import load
 
 class DudeAI(commands.Bot):
     def __init__(self):
